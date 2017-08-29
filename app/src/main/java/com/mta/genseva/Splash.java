@@ -10,4 +10,9 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
     }
+    public void open()
+    {
+        Intent i=new Intent(getApplicationContext(),Dialogue.class);
+        startActivity(i);
+    }
 }
