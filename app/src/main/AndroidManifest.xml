@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Splash" />
-        <activity android:name=".Dialogue"></activity>
+        <activity android:name=".Dialogue" android:theme="@android:style/Theme.Dialog"></activity>
     </application>
 
 </manifest>
